@@ -1,0 +1,206 @@
+/* VERSION ORDINATEUR */
+
+/* Définition de la police personnalisée */
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Paramètres généraux */
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#main-wrapper {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: auto;
+  width: 1440px;
+  height: 1884px;
+}
+
+/* Header */
+
+header {
+  border-style: none;
+  border-color: blue;
+  border-width: 2px;
+}
+
+/* ++++++ Zone titre ++++++ */
+
+.titre {
+  border-style: none;
+  border-color: greenyellow;
+  border-width: 2px;
+  display: flex;
+}
+
+.logo {
+  border-style: none;
+  border-color: hotpink;
+  border-width: 2px;
+  width: 96px;
+  height: 45px;
+  margin-top: 30px;
+  margin-right: 730px;
+  margin-left: 55px;
+}
+
+.menu_hebergements_et_activites {
+  border-style: none;
+  border-color: red;
+  border-width: 2px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.hebergements,
+.activites {
+  border-style: none;
+  border-color: green;
+  border-width: 2px;
+  margin-right: 65px;
+}
+
+.hebergements a,
+.activites a {
+  color: #000000;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.inscription {
+  border-style: none;
+  border-color: green;
+  border-width: 2px;
+  margin-top: 30px;
+}
+
+.inscrire a {
+  color: #0065fc;
+}
+
+.inscrire {
+  border-style: none;
+  border-color: teal;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.hebergements a:hover,
+.activites a:hover {
+  border-top-style: solid;
+  border-width: 5px;
+  border-color: #0065fc;
+  padding-top: 25px;
+  color: #0065fc;
+}
+
+/* VERSION MOBILE */
+
+@media (max-width: 376px) {
+  /* Paramètre généraux */
+
+  #main-wrapper {
+    width: 375px;
+    height: 4550px;
+  }
+
+  /* Header*/
+
+  /* ++++++ Zone titre ++++++ */
+
+  .titre {
+    flex-wrap: wrap;
+  }
+
+  .titre :nth-child(2) {
+    order: 3;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-right: 155px;
+  }
+
+  .inscription {
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+
+  .menu_hebergements_et_activites {
+    margin-top: 35px;
+  }
+
+  .hebergements,
+  .activites {
+    margin-right: 0px;
+  }
+
+  .hebergements a,
+  .activites a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .hebergements a {
+    padding-left: 38px;
+    padding-right: 38px;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-color: #f2f2f2;
+    padding-bottom: 5px;
+  }
+
+  .activites a {
+    padding-left: 60px;
+    padding-right: 62px;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-color: #f2f2f2;
+    padding-bottom: 5px;
+  }
+
+  .hebergements a:hover,
+  .activites a:hover {
+    border-width: 5px;
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-color: #0065fc;
+    padding-bottom: 5px;
+    color: #0065fc;
+  }
+
+  .inscrire a:hover {
+    border-top-style: none;
+  }
+}
+
+/* VERSION TABLETTE */
+
+@media (min-width: 377px) and (max-width: 767px) {
+  /* Paramètre généraux */
+
+  #main-wrapper {
+    width: 768px;
+    height: 1024px;
+  }
+
+  .logo {
+    margin-right: 70px;
+  }
+
+  .hebergements a:hover,
+  .activites a:hover {
+    padding-top: 25px;
+  }
+}
