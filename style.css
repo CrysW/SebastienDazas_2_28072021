@@ -138,6 +138,73 @@ a:link {
   margin-left: 55px;
 }
 
+/* ++++++ Zone recherche ++++++ */
+
+.recherche {
+  border-style: none;
+  border-width: 2px;
+  border-color: blueviolet;
+  display: flex;
+  margin-top: 15px;
+}
+
+.position {
+  border-style: none;
+  border-width: 2px;
+  border-color: yellowgreen;
+  width: 50px;
+  height: 50px;
+  background-color: #f2f2f2f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+}
+
+.position i {
+  border-style: none;
+  border-width: 2px;
+  border-color: red;
+}
+
+.destination input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f2f2f2f2;
+  width: 230px;
+  height: 48px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 16px;
+}
+
+.rechercher {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0065fc;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 135px;
+  height: 50px;
+  background-color: #0065fc;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+.rechercher span {
+  display: inline;
+}
+
+.rechercher i {
+  display: none;
+}
+
 /* VERSION MOBILE */
 
 @media (max-width: 376px) {
@@ -226,6 +293,40 @@ a:link {
 
   .slogan p {
     margin-left: 20px;
+  }
+
+  /* ++++++ Zone recherche ++++++ */
+
+  .recherche {
+    margin-top: 0px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .position {
+    margin-left: 20px;
+  }
+
+  .destination input {
+    width: 225px;
+  }
+
+  .rechercher {
+    width: 50px;
+    height: 50px;
+    margin-left: -15px;
+    padding-left: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .rechercher span {
+    display: none;
+  }
+
+  .rechercher i {
+    display: inline;
+    margin-left: 15px;
   }
 }
 
