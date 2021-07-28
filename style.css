@@ -64,6 +64,8 @@ header {
   border-style: none;
   border-color: green;
   border-width: 2px;
+  font-weight: normal;
+  font-size: 16px;
   margin-right: 65px;
 }
 
@@ -90,6 +92,7 @@ header {
   border-color: teal;
   border-width: 2px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 a:link {
@@ -103,6 +106,36 @@ a:link {
   border-color: #0065fc;
   padding-top: 25px;
   color: #0065fc;
+}
+
+/* ++++++ Zone slogan ++++++ */
+
+.slogan {
+  border-style: none;
+  border-width: 2px;
+  border-color: orange;
+}
+
+.slogan h2 {
+  border-style: none;
+  border-width: 2px;
+  border-color: aqua;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  margin-left: 55px;
+}
+
+.slogan p {
+  border-style: none;
+  border-width: 2px;
+  border-color: brown;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 55px;
 }
 
 /* VERSION MOBILE */
@@ -183,6 +216,17 @@ a:link {
   .inscrire a:hover {
     border-top-style: none;
   }
+
+  /* ++++++ Zone slogan ++++++ */
+  .slogan h2 {
+    margin-top: 35px;
+    margin-right: 65px;
+    margin-left: 20px;
+  }
+
+  .slogan p {
+    margin-left: 20px;
+  }
 }
 
 /* VERSION TABLETTE */
@@ -194,6 +238,10 @@ a:link {
     width: 768px;
     height: 1024px;
   }
+
+  /* Header*/
+
+  /* ++++++ Zone titre ++++++ */
 
   .logo {
     margin-right: 70px;
