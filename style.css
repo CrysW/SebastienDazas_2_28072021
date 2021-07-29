@@ -205,6 +205,91 @@ a:link {
   display: none;
 }
 
+/* Zone filtres */
+
+.filtres {
+  border-style: none;
+  border-width: 2px;
+  border-color: red;
+  display: flex;
+  margin-top: 30px;
+}
+
+.titre_filtres {
+  border-style: snone;
+  border-width: 2px;
+  border-color: aqua;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+  margin-right: 30px;
+}
+
+.filtre_economique,
+.filtre_familial,
+.filtre_romantique,
+.filtre_animaux {
+  border-style: solid;
+  border-width: 2px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-color: #deebff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.filtre_economique,
+.filtre_familial,
+.filtre_romantique {
+  margin-right: 25px;
+}
+
+.filtres i {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #deebff;
+  width: 50px;
+  height: 50px;
+  color: #0065fc;
+  background-color: #deebff;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtre_economique h3,
+.filtre_familial h3,
+.filtre_romantique h3,
+.filtre_animaux h3 {
+  border-style: none;
+  border-width: 2px;
+  border-color: darkorchid;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.filtres a {
+  color: #000000;
+}
+
+.filtre_economique:hover,
+.filtre_familial:hover,
+.filtre_romantique:hover,
+.filtre_animaux:hover {
+  box-shadow: 3px 3px 2px #808080;
+}
+
 /* VERSION MOBILE */
 
 @media (max-width: 376px) {
@@ -327,6 +412,46 @@ a:link {
     display: inline;
     margin-left: 15px;
   }
+
+  /* Zone filtres */
+
+  .filtres {
+    flex-wrap: wrap;
+    margin-top: 35px;
+  }
+
+  .titre_filtres {
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-bottom: 15px;
+  }
+
+  .filtre_economique {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .filtre_familial {
+    margin-right: 0px;
+  }
+
+  .filtre_romantique {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .filtre_animaux {
+    margin-left: 20px;
+  }
+
+  .filtre_economique h3,
+  .filtre_familial h3,
+  .filtre_romantique h3,
+  .filtre_animaux h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 /* VERSION TABLETTE */
@@ -350,5 +475,34 @@ a:link {
   .hebergements a:hover,
   .activites a:hover {
     padding-top: 25px;
+  }
+
+  /* ++++++ Zone filtres */
+
+  .filtres {
+    flex-wrap: wrap;
+  }
+
+  .titre_filtres {
+    margin-right: 20px;
+  }
+
+  .filtre_economique,
+  .filtre_familial,
+  .filtre_romantique {
+    margin-right: 35px;
+  }
+
+  .filtre_animaux {
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+
+  .filtre_economique h3,
+  .filtre_familial h3,
+  .filtre_romantique h3,
+  .filtre_animaux h3 {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
