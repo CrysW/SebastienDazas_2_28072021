@@ -419,6 +419,10 @@ main {
   border-style: none;
   border-color: goldenrod;
   border-width: 2px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .hotel_du_port,
@@ -560,6 +564,10 @@ main {
   border-style: none;
   border-color: goldenrod;
   border-width: 2px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .au_coeur_de_l_eau_chambres_d_hotes {
@@ -811,6 +819,7 @@ main {
 
   .information {
     margin-top: 30px;
+    margin-bottom: 35px;
   }
 
   .information i {
@@ -820,6 +829,123 @@ main {
   .information p {
     width: fit-content;
     margin-left: 5px;
+  }
+
+  /* Main */
+
+  #hebergements_a_Marseille_et_les_plus_populaires {
+    flex-wrap: wrap;
+    order: 1;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /* ++++++ Zone hébergements à Marseille */
+
+  .hebergements_a_Marseille {
+    order: 2;
+  }
+
+  .hebergements_1,
+  .hebergements_2 {
+    flex-wrap: wrap;
+  }
+
+  /* ++++++ Zone les plus populaires ++++++ */
+
+  .les_plus_populaires {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .titre_les_plus_populaires {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .hebergements_3 {
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+  }
+
+  .au_coeur_de_l_eau_chambres_d_hotes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logements_2 {
+    width: 325px;
+  }
+
+  /* ++++++ Zone hébergements à Marseille */
+
+  .hebergements_a_Marseille {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #ffffff;
+  }
+
+  .hebergements_a_Marseille h2 {
+    margin-top: 40px;
+    margin-left: 25px;
+  }
+
+  .hebergements_1 {
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .hebergements_2 {
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .auberge_la_canebiere,
+  .hotel_du_port,
+  .hotel_les_mouettes,
+  .hotel_de_la_mer,
+  .auberge_le_panier {
+    margin-bottom: 10px;
+  }
+
+  .hotel_du_port,
+  .auberge_le_panier {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .auberge_la_canebiere,
+  .hotel_du_port,
+  .hotel_les_mouettes,
+  .hotel_de_la_mer,
+  .auberge_le_panier,
+  .hotel_chez_amina {
+    box-shadow: 10px 10px 20px #f1f1f1;
+  }
+
+  .logements_1 {
+    width: 325px;
+  }
+
+  .logements_1 img {
+    width: 325px;
+  }
+
+  .davantage {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 50px;
   }
 }
 
