@@ -345,7 +345,7 @@ main {
 }
 
 #hebergements_a_Marseille_et_les_plus_populaires {
-  border-style: none;
+  border-style: solid;
   border-color: palegreen;
   border-width: 2px;
   display: flex;
@@ -647,6 +647,180 @@ main {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+/* ++++++ Zone activités à Marseille */
+
+.activites_a_Marseille {
+  border-style: solid;
+  border-color: yellow;
+  border-width: 2px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.activites_a_Marseille h2 {
+  border-style: solid;
+  border-color: hotpink;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.occupations {
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Vieux Port */
+
+.vieux_port {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+
+.vieux_port img {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.vieux_port h3 {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Fort de Pomègues et Îles du Frioul*/
+
+.fort_de_pomegues_et_iles_du_frioul {
+  border-style: solid;
+  border-color: greenyellow;
+  border-width: 2px;
+}
+
+/* Fort de Pomègues */
+
+.fort_de_pomegues {
+  border-style: solid;
+  border-color: teal;
+  border-width: 2px;
+}
+
+.fort_de_pomegues img {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.fort_de_pomegues h3 {
+  border-style: solid;
+  border-color: fuchsia;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Îles du Frioul */
+
+.iles_du_frioul {
+  border-style: solid;
+  border-color: purple;
+  border-width: 2px;
+}
+
+.iles_du_frioul img {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.iles_du_frioul h3 {
+  border-style: solid;
+  border-color: fuchsia;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Parc National des Calanques */
+
+.parc_national_des_calanques {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+
+.parc_national_des_calanques img {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.parc_national_des_calanques h3 {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Notre-Dame-de-la-Garde & Parc Longchamp */
+
+.notre-dame-de-la-garde_et_parc_longchamp {
+  border-style: solid;
+  border-color: greenyellow;
+  border-width: 2px;
+}
+
+/* Notre-Dame-de-la-Garde */
+
+.notre-dame-de-la-garde {
+  border-style: solid;
+  border-color: teal;
+  border-width: 2px;
+}
+
+.notre-dame-de-la-garde img {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.notre-dame-de-la-garde h3 {
+  border-style: solid;
+  border-color: fuchsia;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Parc Longchamp */
+
+.parc_longchamp {
+  border-style: solid;
+  border-color: purple;
+  border-width: 2px;
+}
+
+.parc_longchamp img {
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.parc_longchamp h3 {
+  border-style: solid;
+  border-color: fuchsia;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* VERSION MOBILE */
