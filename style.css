@@ -210,7 +210,7 @@ a:link {
   display: none;
 }
 
-/* Zone filtres */
+/* ++++++ Zone filtres ++++++ */
 
 .filtres {
   border-style: none;
@@ -355,7 +355,7 @@ main {
   margin-left: 50px;
 }
 
-/* ++++++ Zone hébergements à Marseille */
+/* ++++++ Zone hébergements à Marseille ++++++ */
 
 .hebergements_a_Marseille {
   border-style: none;
@@ -507,7 +507,7 @@ main {
   border-bottom-left-radius: 20px;
 }
 
-/* ++++++ Zone les plus populaires */
+/* ++++++ Zone les plus populaires ++++++ */
 
 .les_plus_populaires {
   border-style: none;
@@ -611,6 +611,7 @@ main {
   border-style: none;
   border-color: yellow;
   border-width: 2px;
+  width: 150px;
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 16px;
@@ -775,7 +776,7 @@ main {
     margin-left: 15px;
   }
 
-  /* Zone filtres */
+  /* ++++++ Zone filtres ++++++ */
 
   .filtres {
     flex-wrap: wrap;
@@ -841,7 +842,7 @@ main {
     margin-left: 0px;
   }
 
-  /* ++++++ Zone hébergements à Marseille */
+  /* ++++++ Zone hébergements à Marseille ++++++ */
 
   .hebergements_a_Marseille {
     order: 2;
@@ -884,7 +885,7 @@ main {
     width: 325px;
   }
 
-  /* ++++++ Zone hébergements à Marseille */
+  /* ++++++ Zone hébergements à Marseille ++++++ */
 
   .hebergements_a_Marseille {
     border-top-left-radius: 0px;
@@ -956,7 +957,7 @@ main {
 
   #main-wrapper {
     width: 768px;
-    height: 1024px;
+    height: 2600px;
   }
 
   /* Header*/
@@ -972,7 +973,7 @@ main {
     padding-top: 25px;
   }
 
-  /* ++++++ Zone filtres */
+  /* ++++++ Zone filtres ++++++ */
 
   .filtres {
     flex-wrap: wrap;
@@ -999,5 +1000,127 @@ main {
   .filtre_animaux h3 {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  /* Main */
+
+  #hebergements_a_Marseille_et_les_plus_populaires {
+    flex-wrap: wrap;
+    order: 1;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  /* ++++++ Zone hébergements à Marseille ++++++ */
+
+  .hebergements_a_Marseille {
+    order: 2;
+  }
+
+  .hebergements_1,
+  .hebergements_2 {
+    flex-wrap: wrap;
+  }
+
+  /* ++++++ Zone les plus populaires ++++++ */
+
+  .les_plus_populaires {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .titre_les_plus_populaires {
+    margin-right: 55px;
+    margin-bottom: 25px;
+    margin-left: 55px;
+  }
+
+  .hebergements_3 {
+    margin-top: 0px;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-bottom: 45px;
+  }
+
+  .au_coeur_de_l_eau_chambres_d_hotes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .logements_2 {
+    width: 640px;
+  }
+
+  .logements_2 img {
+    width: 256px;
+  }
+
+  .infos_logements_2 {
+    margin-left: 40px;
+  }
+
+  .infos_logements_2 h3 {
+    width: auto;
+  }
+
+  /* ++++++ Zone hébergements à Marseille ++++++ */
+
+  .hebergements_a_Marseille {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #ffffff;
+  }
+
+  .hebergements_a_Marseille h2 {
+    margin-right: 55px;
+    margin-left: 55px;
+  }
+
+  .hebergements_1 {
+    margin-top: 25px;
+    margin-right: 55px;
+    margin-left: 55px;
+  }
+
+  .hebergements_2 {
+    margin-top: 20px;
+    margin-right: 55px;
+    margin-left: 55px;
+  }
+
+  .hotel_du_port,
+  .auberge_le_panier {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  .auberge_la_canebiere,
+  .hotel_du_port,
+  .hotel_les_mouettes,
+  .hotel_de_la_mer,
+  .auberge_le_panier,
+  .hotel_chez_amina {
+    box-shadow: 10px 10px 20px #f1f1f1;
+  }
+
+  .logements_1 {
+    width: 640px;
+  }
+
+  .logements_1 img {
+    width: 640px;
+  }
+
+  .davantage {
+    margin-top: 45px;
+    margin-right: 55px;
+    margin-left: 55px;
   }
 }
