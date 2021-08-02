@@ -345,7 +345,7 @@ main {
 }
 
 #hebergements_a_Marseille_et_les_plus_populaires {
-  border-style: solid;
+  border-style: none;
   border-color: palegreen;
   border-width: 2px;
   display: flex;
@@ -652,7 +652,7 @@ main {
 /* ++++++ Zone activités à Marseille */
 
 .activites_a_Marseille {
-  border-style: solid;
+  border-style: none;
   border-color: yellow;
   border-width: 2px;
   margin-right: 50px;
@@ -660,167 +660,286 @@ main {
 }
 
 .activites_a_Marseille h2 {
-  border-style: solid;
+  border-style: none;
   border-color: hotpink;
   border-width: 2px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .occupations {
-  border-style: solid;
+  border-style: none;
   border-color: blue;
   border-width: 2px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.occupations a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.vieux_port:hover,
+.fort_de_pomegues:hover,
+.iles_du_frioul:hover,
+.parc_national_des_calanques:hover,
+.notre-dame-de-la-garde:hover,
+.parc_longchamp:hover {
+  box-shadow: 3px 3px 2px #808080;
 }
 
 /* Vieux Port */
 
 .vieux_port {
-  border-style: solid;
+  border-style: none;
   border-color: red;
   border-width: 2px;
+  width: 300px;
+  height: 445px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 2px 2px 20px #f2f2f2f2;
 }
 
 .vieux_port img {
-  border-style: solid;
+  border-style: none;
   border-color: blueviolet;
   border-width: 2px;
+  width: 300px;
+  height: 390px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .vieux_port h3 {
-  border-style: solid;
+  border-style: none;
   border-color: green;
   border-width: 2px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Fort de Pomègues et Îles du Frioul*/
 
 .fort_de_pomegues_et_iles_du_frioul {
-  border-style: solid;
+  border-style: none;
   border-color: greenyellow;
   border-width: 2px;
+  width: 300px;
+  height: 445px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /* Fort de Pomègues */
 
 .fort_de_pomegues {
-  border-style: solid;
+  border-style: none;
   border-color: teal;
   border-width: 2px;
+  width: 300px;
+  height: 235px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 2px 2px 20px #f2f2f2f2;
+  margin-bottom: 45px;
 }
 
 .fort_de_pomegues img {
-  border-style: solid;
+  border-style: none;
   border-color: blueviolet;
   border-width: 2px;
+  width: 300px;
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .fort_de_pomegues h3 {
-  border-style: solid;
+  border-style: none;
   border-color: fuchsia;
   border-width: 2px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Îles du Frioul */
 
 .iles_du_frioul {
-  border-style: solid;
+  border-style: none;
   border-color: purple;
   border-width: 2px;
+  width: 300px;
+  height: 165px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 2px 2px 20px #f2f2f2f2;
 }
 
 .iles_du_frioul img {
-  border-style: solid;
+  border-style: none;
   border-color: blueviolet;
   border-width: 2px;
+  width: 300px;
+  height: 110px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .iles_du_frioul h3 {
-  border-style: solid;
+  border-style: none;
   border-color: fuchsia;
   border-width: 2px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Parc National des Calanques */
 
 .parc_national_des_calanques {
-  border-style: solid;
+  border-style: none;
   border-color: red;
   border-width: 2px;
+  width: 300px;
+  height: 445px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 2px 2px 20px #f2f2f2f2;
 }
 
 .parc_national_des_calanques img {
-  border-style: solid;
+  border-style: none;
   border-color: blueviolet;
   border-width: 2px;
+  width: 300px;
+  height: 390px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .parc_national_des_calanques h3 {
-  border-style: solid;
+  border-style: none;
   border-color: green;
   border-width: 2px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Notre-Dame-de-la-Garde & Parc Longchamp */
 
 .notre-dame-de-la-garde_et_parc_longchamp {
-  border-style: solid;
+  border-style: none;
   border-color: greenyellow;
   border-width: 2px;
+  width: 300px;
+  height: 445px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /* Notre-Dame-de-la-Garde */
 
 .notre-dame-de-la-garde {
-  border-style: solid;
+  border-style: none;
   border-color: teal;
   border-width: 2px;
+  width: 300px;
+  height: 190px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 45px;
 }
 
 .notre-dame-de-la-garde img {
-  border-style: solid;
+  border-style: none;
   border-color: blueviolet;
   border-width: 2px;
+  width: 300px;
+  height: 140px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .notre-dame-de-la-garde h3 {
-  border-style: solid;
+  border-style: none;
   border-color: fuchsia;
   border-width: 2px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Parc Longchamp */
 
 .parc_longchamp {
-  border-style: solid;
+  border-style: none;
   border-color: purple;
   border-width: 2px;
+  width: 300px;
+  height: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .parc_longchamp img {
-  border-style: solid;
+  border-style: none;
   border-color: blueviolet;
   border-width: 2px;
+  width: 300px;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .parc_longchamp h3 {
-  border-style: solid;
+  border-style: none;
   border-color: fuchsia;
   border-width: 2px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* VERSION MOBILE */
