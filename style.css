@@ -15,7 +15,7 @@ body {
 }
 
 #main-wrapper {
-  border-style: solid;
+  border-style: none;
   border-color: black;
   border-width: 2px;
   margin: auto;
@@ -651,7 +651,7 @@ main {
 
 /* ++++++ Zone activités à Marseille */
 
-.activites_a_Marseille {
+#activites_a_Marseille {
   border-style: none;
   border-color: yellow;
   border-width: 2px;
@@ -659,7 +659,7 @@ main {
   margin-left: 50px;
 }
 
-.activites_a_Marseille h2 {
+#activites_a_Marseille h2 {
   border-style: none;
   border-color: hotpink;
   border-width: 2px;
@@ -1323,12 +1323,12 @@ footer {
 
   /* ++++++ Zone activités à Marseille */
 
-  .activites_a_Marseille {
+  #activites_a_Marseille {
     margin-right: 20px;
     margin-left: 25px;
   }
 
-  .activites_a_Marseille h2 {
+  #activites_a_Marseille h2 {
     margin-top: 0px;
     margin-bottom: 30px;
   }
@@ -1458,7 +1458,7 @@ footer {
   /* Paramètre généraux */
 
   #main-wrapper {
-    width: 768px;
+    width: 767px;
     height: 4165px;
   }
 
@@ -1553,7 +1553,7 @@ footer {
   }
 
   .logements_2 {
-    width: 640px;
+    width: 647px;
   }
 
   .logements_2 img {
@@ -1613,11 +1613,11 @@ footer {
   }
 
   .logements_1 {
-    width: 640px;
+    width: 647px;
   }
 
   .logements_1 img {
-    width: 640px;
+    width: 647px;
   }
 
   .davantage {
@@ -1628,12 +1628,12 @@ footer {
 
   /* ++++++ Zone activités à Marseille */
 
-  .activites_a_Marseille {
+  #activites_a_Marseille {
     margin-right: 55px;
     margin-left: 55px;
   }
 
-  .activites_a_Marseille h2 {
+  #activites_a_Marseille h2 {
     margin-top: 45px;
   }
 
