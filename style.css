@@ -1354,7 +1354,7 @@ main {
 
   #main-wrapper {
     width: 768px;
-    height: 2600px;
+    height: 4000px;
   }
 
   /* Header*/
@@ -1519,5 +1519,112 @@ main {
     margin-top: 45px;
     margin-right: 55px;
     margin-left: 55px;
+  }
+
+  /* ++++++ Zone activités à Marseille */
+
+  .activites_a_Marseille {
+    margin-right: 55px;
+    margin-left: 55px;
+  }
+
+  .activites_a_Marseille h2 {
+    margin-top: 45px;
+  }
+
+  .occupations {
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+  }
+
+  /* Vieux Port */
+
+  .vieux_port {
+    width: 655px;
+    height: 190px;
+    margin-bottom: 20px;
+  }
+
+  .vieux_port img {
+    width: 655px;
+    height: 130px;
+  }
+
+  /* Fort de Pomègues et Îles du Frioul*/
+
+  .fort_de_pomegues_et_iles_du_frioul {
+    width: 655px;
+    height: 400px;
+  }
+
+  /* Fort de Pomègues */
+
+  .fort_de_pomegues {
+    width: 655px;
+    height: 190px;
+    margin-bottom: 20px;
+  }
+
+  .fort_de_pomegues img {
+    width: 655px;
+    height: 130px;
+  }
+
+  /* Îles du Frioul */
+
+  .iles_du_frioul {
+    width: 655px;
+    height: 190px;
+  }
+
+  .iles_du_frioul img {
+    width: 655px;
+    height: 130px;
+  }
+
+  /* Parc National des Calanques */
+
+  .parc_national_des_calanques {
+    width: 655px;
+    height: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .parc_national_des_calanques img {
+    width: 655px;
+    height: 130px;
+  }
+
+  /* Notre-Dame-de-la-Garde & Parc Longchamp */
+
+  .notre-dame-de-la-garde_et_parc_longchamp {
+    width: 655px;
+    height: 400px;
+  }
+
+  /* Notre-Dame-de-la-Garde */
+
+  .notre-dame-de-la-garde {
+    width: 655px;
+    height: 190px;
+    margin-bottom: 20px;
+  }
+
+  .notre-dame-de-la-garde img {
+    width: 655px;
+    height: 130px;
+  }
+
+  /* Parc Longchamp */
+
+  .parc_longchamp {
+    width: 655px;
+    height: 190px;
+  }
+
+  .parc_longchamp img {
+    width: 655px;
+    height: 130px;
   }
 }
