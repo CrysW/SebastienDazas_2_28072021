@@ -1459,7 +1459,7 @@ footer {
 
   #main-wrapper {
     width: 768px;
-    height: 4000px;
+    height: 4165px;
   }
 
   /* Header*/
@@ -1731,5 +1731,19 @@ footer {
   .parc_longchamp img {
     width: 655px;
     height: 130px;
+  }
+
+  /* Footer */
+
+  .menu_bas_de_page {
+    margin-top: 45px;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    margin-left: 55px;
+  }
+
+  .nos_hebergements {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
