@@ -1428,6 +1428,28 @@ footer {
     width: 325px;
     height: 135px;
   }
+
+  /* Footer */
+
+  .menu_bas_de_page {
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+  }
+
+  .a_propos {
+    margin-bottom: 45px;
+  }
+
+  .nos_hebergements {
+    border-style: none;
+    border-color: orange;
+    border-width: 2px;
+    margin-left: 0px;
+    margin-bottom: 45px;
+    margin-right: 100px;
+  }
 }
 
 /* VERSION TABLETTE */
