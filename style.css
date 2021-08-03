@@ -938,6 +938,69 @@ main {
   font-weight: bold;
 }
 
+/* Footer */
+
+footer {
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+
+.menu_bas_de_page {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+  display: flex;
+}
+
+.a_propos {
+  border-style: solid;
+  border-color: teal;
+  border-width: 2px;
+}
+
+.nos_hebergements {
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+}
+
+.assistance {
+  border-style: solid;
+  border-color: aqua;
+  border-width: 2px;
+}
+
+.a_propos h2,
+.nos_hebergements h2,
+.assistance h2 {
+  border-style: solid;
+  border-color: hotpink;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.a_propos ul,
+.nos_hebergements ul,
+.assistance ul {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.a_propos li,
+.nos_hebergements li,
+.assistance li {
+  border-style: solid;
+  border-color: royalblue;
+  border-width: 2px;
+  list-style: none;
+}
+
 /* VERSION MOBILE */
 
 @media (max-width: 376px) {
