@@ -942,31 +942,38 @@ main {
 
 footer {
   border-style: solid;
-  border-color: blue;
+  border-color: #f2f2f2f2;
   border-width: 2px;
+  background-color: #f2f2f2f2;
 }
 
 .menu_bas_de_page {
-  border-style: solid;
+  border-style: none;
   border-color: red;
   border-width: 2px;
   display: flex;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 35px;
+  margin-left: 50px;
 }
 
 .a_propos {
-  border-style: solid;
+  border-style: none;
   border-color: teal;
   border-width: 2px;
 }
 
 .nos_hebergements {
-  border-style: solid;
+  border-style: none;
   border-color: orange;
   border-width: 2px;
+  margin-left: 210px;
+  margin-right: 280px;
 }
 
 .assistance {
-  border-style: solid;
+  border-style: none;
   border-color: aqua;
   border-width: 2px;
 }
@@ -974,17 +981,19 @@ footer {
 .a_propos h2,
 .nos_hebergements h2,
 .assistance h2 {
-  border-style: solid;
+  border-style: none;
   border-color: hotpink;
   border-width: 2px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .a_propos ul,
 .nos_hebergements ul,
 .assistance ul {
-  border-style: solid;
+  border-style: none;
   border-color: green;
   border-width: 2px;
   margin-top: 0px;
@@ -995,10 +1004,21 @@ footer {
 .a_propos li,
 .nos_hebergements li,
 .assistance li {
-  border-style: solid;
+  border-style: none;
   border-color: royalblue;
   border-width: 2px;
   list-style: none;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.a_propos li:hover,
+.nos_hebergements li:hover,
+.assistance li:hover {
+  color: #0065fc;
+  font-weight: bold;
 }
 
 /* VERSION MOBILE */
